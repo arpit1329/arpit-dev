@@ -1,0 +1,77 @@
+ 
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+header {
+    background: linear-gradient(90deg, #0073e6, #005bb5);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.toggle-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+section {
+    padding: 30px;
+    margin: 30px auto;
+    width: 80%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.certificates img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+.skills-bar div {
+    background: #0073e6;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 5px 0;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0073e6;
+    color: white;
+    font-size: 1em;
+}
+ 
